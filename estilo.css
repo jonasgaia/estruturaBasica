@@ -1,0 +1,109 @@
+body {
+	margin: 0 auto;
+	width: 100%;
+	background-color: #0e0e0e;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff8db;
+    box-sizing: border-box;
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+.titulo{
+    margin-left: 20px;
+}
+
+.deHeader {
+	width: 100%;
+	margin: 25px auto;
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 2px solid #ff3333;
+}
+.deHeader:hover {
+	box-shadow: 0 8px 8px 0.02px #ff0505;
+}
+.textoHearde {
+	margin-left: 16rem;
+}
+.logo img {
+	width: 100px;
+}
+.menu {
+	display: flex;
+	align-items: center;
+	gap: 40px;
+}
+nav {
+	display: flex;
+	gap: 100px;
+	margin-right: 20px;
+}
+.descricaoPagina{
+    text-align: center;
+}
+
+.main {
+	display: flex;
+	gap: 50px;
+	width: 80%;
+    height: calc(100vh - 190px);
+	margin-inline: auto;
+	border: 2px solid #ff8f33;
+	border-radius: 5px;
+	padding: 50px;
+}
+.contPrincipal {
+	width: 60%;
+	border: 2px solid #88c5ff;
+	border-radius: 5px;
+}
+.contPrincipal:hover {
+	box-shadow: 0 0 18px 0.02px #339cff;
+}
+.contPrincipal h1 {
+	color: #fff;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+.contPrincipal article p {
+    margin: 10px 30px;
+    font-size: 16px;
+    
+}
+.contPrincipal .imagem img{
+    width: 50%;
+    object-fit: cover;
+
+}
+
+.contSecundario {
+	border: 2px solid #0482f8;
+	width: 40%;
+	border-radius: 5px;
+    object-fit: cover;
+    overflow-y:scroll;
+}
+.contSecundario:hover {
+	box-shadow: 0 0 18px 0.02px #c1e1ff;
+}
+.secaoContSecundario{
+    display: flex;
+    flex-direction: column;
+    background-color: #0a0a0a;
+    z-index: -1;
+}
+.secaoContSecundario .imagem{
+    width: 50%;
+    margin-inline: auto;
+    margin-bottom: 15px;
+}
+.rodaPe{
+    background: linear-gradient(#000, #505050, #000);
+    text-align: center;
+    border-top: 2px solid #ff3333;
+    margin-top: 10px;
+}
+
